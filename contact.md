@@ -5,7 +5,7 @@ css: ["contact.css"]
 ---
 <div class="col s12">
   <div class="icontain">
-    github地址：<a src="{{site.contact_url}}">{{site.contact_url}}</a>
+    github地址：<a href="{{site.contact_url}}">{{site.contact_url}}</a>
     
   </div>
 </div>
