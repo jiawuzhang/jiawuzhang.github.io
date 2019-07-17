@@ -56,13 +56,13 @@
             <span class="white-text name">{{site.user}}</span>
             <span class="white-text email">{{site.user_email}}</span>
 
-            <!--此处添加的社会化链接，都是国外的，改天加上微博，微信的  -->
+            <!--此处添加的社会化链接，都是国外的，改天加上微博，微信的 {% if site.social.github %} {% endif %}-->
             <span class="white-text" style="font-size:2em;">
-              {% if site.social.github %}
+              
               <a title="{{site.social.github}} on GitHub" href="https://github.com/{{site.social.github}}">
                 <i class="fab fa-github"></i>
               </a>
-              {% endif %}
+              
 
               {% if site.social.bitbucket %}
               <a title="{{site.social.bitbucket}} on BitBucket" href="https://bitbucket.com/{{site.social.bitbucket}}">
