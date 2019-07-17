@@ -2,6 +2,7 @@
 layout: default
 css: ["post.css"]
 js: ["post.js"]
+site.disqus_shortname and
 ---
 <div id="post-info">
   <h3>{{page.title}}</h3>
@@ -41,7 +42,7 @@ js: ["post.js"]
     {{ content }}
   </div>
 </div>
-{% if site.disqus_shortname and page.comments %}
+{% if  page.comments %}
 <div id="disqus_thread"></div>
 <script>
   var disqus_config = function () {
