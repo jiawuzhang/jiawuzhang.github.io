@@ -16,10 +16,10 @@
 title: JiawuZhang 博客
 description: > # this means to ignore newlines until "baseurl:"
   Material theme based on <a href="http://materializecss.com">Materialize.css</a> for jekyll sites
-baseurl: "/matjek"
+baseurl: "/"
 url: "http://ttiyh.com"
 permalink: /:year/:month/:day/:title
-repository: ShawnTeoh/matjek
+repository: jiawuzhang/
 paginate: 5
 
 # MatJek specific configurations
