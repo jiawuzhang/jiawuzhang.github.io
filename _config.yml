@@ -31,6 +31,21 @@ contact_url: "https://github.com/jiawuzhang"
 # google_site_verification: "UA-96359860-1"
 disqus_shortname: "jiawu"
 
+# Social Links
+social:
+  github: jiawuzhang
+  #bitbucket: 
+  #hacker_news: 
+  #stackexchange: 
+  #stackoverflow: 
+  #twitter: 
+  #facebook: 
+  #tumblr: 
+  #linkedin: 
+  #gplus: 
+  #gravatar: 
+  #flickr: 
+
 # Build settings
 markdown: kramdown
 gems:
