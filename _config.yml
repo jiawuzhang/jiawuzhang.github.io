@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: Jiawu的博客
 description: > # this means to ignore newlines until "baseurl:"
-  Material theme based on <a href="http://materializecss.com">Materialize.css</a> for jekyll sites
+  基于 <a href="http://materializecss.com">Materialize.css</a> for jekyll 制作，模板采集自matjek。
 baseurl: "/"
 url: "http://ttiyh.com"
 permalink: /:year/:month/:day/:title
