@@ -5,6 +5,7 @@ css: ["contact.css"]
 ---
 <div class="col s12">
   <div class="icontain">
-    <a src="{{site.contact_url}}">github</iframe>
+    github地址：<a src="{{site.contact_url}}">{{site.contact_url}}</a>
+    
   </div>
 </div>
