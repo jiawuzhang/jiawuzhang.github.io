@@ -5,6 +5,6 @@ css: ["contact.css"]
 ---
 <div class="col s12">
   <div class="icontain">
-    <iframe src="{{site.contact_url}}">github</iframe>
+    <a src="{{site.contact_url}}">github</iframe>
   </div>
 </div>
