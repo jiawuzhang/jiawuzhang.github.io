@@ -28,6 +28,7 @@
     <link rel="stylesheet" href="{{site.baseurl}}/assets/css/{{css}}">
     {% endif %}
     {% endfor %}
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="{{site.baseurl}}/assets/css/syntax.css">
     <link rel="alternate" type="application/rss+xml" title="RSS" href="{{site.baseurl}}/feed.xml">
     <link rel="sitemap" type="application/xml" title="Sitemap" href="{{site.baseurl}}/sitemap.xml">
@@ -54,15 +55,14 @@
             <a href="{{site.github_profile}}" target="_blank"><img class="circle z-depth-2" src="{{site.baseurl}}/assets/res/user.png"></a>
             <span class="white-text name">{{site.user}}</span>
             <span class="white-text email">{{site.user_email}}</span>
-            <span class="white-text">这几个字能显示出来吗？</span>
 
-            <!--此处添加的社会化链接，都是国外的，改天加上微博，微信的 {% if site.social.github %} {% endif %}-->
+            <!--此处添加的社会化链接，都是国外的，改天加上微博，微信的  -->
             <span class="white-text" style="font-size:2em;">
-              
+              {% if site.social.github %}
               <a title="{{site.social.github}} on GitHub" href="https://github.com/{{site.social.github}}">
                 <i class="fab fa-github"></i>
               </a>
-              
+              {% endif %}
 
               {% if site.social.bitbucket %}
               <a title="{{site.social.bitbucket}} on BitBucket" href="https://bitbucket.com/{{site.social.bitbucket}}">
