@@ -5,6 +5,14 @@
           <div class="col s12">
             <img src="{{site.baseurl}}/assets/res/logo.png" alt="logo"/>
             <p class="grey-text text-lighten-4">{{site.description}}</p>
+            <!-- pv的方式，单个用户连续点击n篇文章，记录n次访问量 -->
+            <span id="busuanzi_container_site_pv">
+              本站总访问量<span id="busuanzi_value_site_pv"></span>次
+            </span>
+            <!-- uv的方式，单个用户连续点击n篇文章，只记录1次访客数 -->
+            <span id="busuanzi_container_site_uv">
+              本站总访客数<span id="busuanzi_value_site_uv"></span>人次
+            </span>
           </div>
         </div>
       </div>
@@ -39,6 +47,6 @@
     </script>
     {% endif %}
     <script src="{{site.baseurl}}/assets/js/main.js"></script>
-    <script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
   </body>
 </html>
