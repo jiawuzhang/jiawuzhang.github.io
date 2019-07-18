@@ -10,10 +10,7 @@ js: ["post.js"]
       <div class="collapsible-header">
         <span>
           <i class="material-icons tooltipped" data-position="left" data-delay="30" data-tooltip="发布时间">date_range</i>
-          {{page.date | date: "%d/%m/%Y %H:%M"}}
-          <span id="busuanzi_container_page_pv">
-            阅读量:<span id="busuanzi_value_page_pv"></span>
-          </span>
+          {{page.date | date: "%d/%m/%Y %H:%M"}}  阅读量:<span id="busuanzi_value_page_pv"></span>
           <i id="indicate" class="right material-icons tooltipped" data-position="left" data-delay="30" data-tooltip="查看更多信息">info</i>
         </span>
       </div>
