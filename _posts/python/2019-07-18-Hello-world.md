@@ -43,5 +43,5 @@ print('Hello World')
 
 最后用一张图片，来结束！
 
-![未来加油](https://cdn.pixabay.com/photo/2017/10/17/19/11/fantasy-2861815_960_720.jpg)
+![未来加油](https://cdn.pixabay.com/photo/2017/10/17/19/11/fantasy-2861815_960_720.jpg){:width="100%"}
 
