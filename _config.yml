@@ -14,10 +14,11 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Jiawu的博客
+keywords: python,学习,ai,人工智能,机器学习,深度学习,数据分析,数据可视化,markdown,爬虫
 description: > # this means to ignore newlines until "baseurl:"
-  基于 <a href="http://materializecss.com">Materialize.css</a> for jekyll 制作
+  在<a href="https://ttiyh.com">我的博客</a>一起学习python!
 baseurl: "/"
-url: "http://ttiyh.com"
+url: "https://ttiyh.com"
 permalink: /:year/:month/:day/:title
 repository: jiawuzhang/
 paginate: 5
