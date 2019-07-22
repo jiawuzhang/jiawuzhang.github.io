@@ -16,7 +16,7 @@
 title: Jiawu的博客
 keywords: python,学习,ai,人工智能,机器学习,深度学习,数据分析,数据可视化,markdown,爬虫
 description: > # this means to ignore newlines until "baseurl:"
-  在<a href="https://ttiyh.com">我的博客</a>一起学习python!
+  在<a href="https://ttiyh.com">Jiawu的博客</a>一起学习python!
 baseurl: "/"
 url: "https://ttiyh.com"
 permalink: /:year/:month/:day/:title
